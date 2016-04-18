@@ -1,3 +1,16 @@
+# ng2-boilerplate
+
+This is my adaptation of the boilerplate code for Angular 2 apps from [angular.io](http://angular.io) The main differences between this and the default are:
+
+- Typescript files are placed in the 'dev' folder and compiled to the 'app' folder
+- Styles (both overall project and component specific) are kept in the 'css' folder
+- Component templates are kept in the 'tpls' folder
+- Bootstrap 3 (and jQuery) employed by default
+
+with a couple of very minor changes to the 'index.html', 'tsconfig.json' and 'package.json' files to reflect this structure.
+
+The original readme.md follows:
+
 # Angular 2 QuickStart Source
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
